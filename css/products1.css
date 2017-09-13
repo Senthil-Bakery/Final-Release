@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* CSS Document */
+
+.cat_menu{
+	padding: 10px;
+	margin-top: 120px;
+	list-style-type: none;
+}
+
+.cat_menu li{
+	float: left;
+}
+
+.cat_items{
+	
+}
+
+
+.products-list{
+	width: 80%;
+	margin: auto;
+}
+
+.product-item {float: left;	background: #ffffff;margin:15px 10px; margin-left: 100px;	padding:5px;border:#CCC 1px solid;border-radius:4px;}
+.product-item div{ text-align:center;	margin:10px;}
+.product-price {    
+	color: #005dbb;
+    font-weight: 600;
+}
+.product-image {height:100px;background-color:#FFF;}
+.btnAddAction{    background-color: #eb9e4f;
+    border: 0;
+    padding: 3px 10px;
+    color: #ffffff;
+    margin-left: 2px;
+    border-radius: 2px;
+}
+

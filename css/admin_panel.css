@@ -1,0 +1,188 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+#container {
+	
+}
+
+#header {
+	background-color: #5D5DAA;
+	width: 99%;
+}
+
+#sidebar {
+	background-color: #222D33;
+	font-weight: normal;
+	float: left;
+	color: white;
+	padding: 0px;
+	height: 600px;
+	
+}
+
+#sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #222D33;
+}
+
+li a {
+    display: block;
+    color: #8B8787;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: #1A2227;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+#content {
+	padding: 10px;
+	background-color:#ECF0F5;
+	float: left;
+	color: black;
+}
+
+#products {
+	padding:40px;
+}
+
+
+#content {
+	float: left;
+	background-color: white;
+}
+
+.list,tr,th,td {
+	border:1px solid black;
+	border-collapse: collapse;
+	padding: 10px;
+	margin: 20px;
+}
+
+.list td {
+	border: 1px solid black;
+}
+
+.add{
+	padding: 5px;
+	color:white;
+	background-color:midnightblue;
+	border-radius: 3px;
+	margin: 20px;
+	text-decoration: none;
+	border:1px solid midnightblue;
+}
+
+.add:hover{
+	color:midnightblue;
+	background-color: white;
+}
+
+.edit {
+	margin:5px;
+	border:1px solid darkblue;
+	color:white;
+	background-color:darkblue;
+	border-radius: 3px;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+.edit:hover{
+	background-color: blue;
+}
+
+.delt {
+	margin:5px;
+	border:1px solid darkred;
+	color:white;
+	background-color:darkred;
+	border-radius: 3px;
+	text-decoration: none;
+	padding: 5px 10px;
+}
+
+.delt:hover {
+	background-color: red;
+}
+
+#footer {
+	background-color: #5D5DAA;
+	clear: both;
+	text-align: center;
+	padding: 10px;
+	color: white;
+}
+
+#login_box {
+	font-family: tahoma;
+	margin: auto;
+	padding: 10px;
+	width: 300px;
+	background-color: white;
+	border-radius: 6px;
+	text-align: center;
+
+}
+.login {
+	width:200px;
+	margin: auto;
+}
+.login tr,td {
+	border:none;
+}
+
+.login_btn {
+	border: 1px solid #5D5DAA;
+	padding:10px 15px;
+	color:white;
+	background-color: #5D5DAA;
+	border-radius: 6px;
+	cursor: pointer;
+	font-weight: bolder;
+	font-size: 1em;
+	
+}
+
+.login_btn:hover {
+	background-color:white;
+	border-radius: 6px;
+	border:1px solid #5D5DAA;
+	color: #5D5DAA;
+}
+
+#logout {
+	color:white;
+	background-color:darkred;
+	
+}
+
+#logout:hover {
+	background-color: red;
+}
+
+.txt {
+	border-radius: 4px;
+	padding: 5px;
+	
+}
+
+.header_link{
+	color: white;
+	font-weight: bolder;
+	text-decoration: none;
+}

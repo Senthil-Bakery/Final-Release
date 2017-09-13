@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+.sidenav{
+}
+
+
+.item {
+	
+	display: none;
+}
+
+.items {
+	padding: 30px;
+}
+
+.content {
+	margin-top: 100px;
+}
+
+#cat a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    background-color:#333;
+	border-bottom: 5px solid transparent;
+}
+
+#cat a.active {
+    background-color: #333;
+    color: white;
+}
+
+#cat a:hover:not(.active) {
+    border-bottom: 5px solid #3EE097;
+    color: white;
+}
+
+#cat{
+	list-style-type: none;
+}
+
+#cat a{
+	text-decoration: none;
+}
+
+figure {
+	
+	float: left;
+}
+
+
+figure img {
+	border: 2px solid grey;
+}
+
+figure img:hover {
+	border: 2px solid #926143;
+	cursor: pointer;
+}
+
+

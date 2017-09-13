@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+.gallery{
+	padding: 100px;
+	margin-top: 60px;
+}
+
+.imgs {
+	margin: 20px;
+	border: 2px solid transparent;
+	width: 150px;
+	height: 150px;
+}
+
+.imgs:hover {
+	border: 2px solid blue;
+}
